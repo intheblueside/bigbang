@@ -25,11 +25,9 @@ The result is written to an `output.json` file.
 ### Prerequisites:
 - Node.js must be installed. You can download it [here](https://nodejs.org/).
 
-To check if Node.js is installed, run:
-```bash
-node -v
+To check if Node.js is installed, run: node -v
 
-## Steps:
+## Steps: 
 1. Clone or download this repository to your local machine.
 
 2. Open your terminal and navigate to the project folder: cd path/to/project/folder
@@ -39,3 +37,5 @@ node -v
 4. If successful, you will see: output.json written
 
 5. Check the project folder. You will find a new file named output.json containing the result. 
+
+
