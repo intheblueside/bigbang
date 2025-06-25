@@ -1,3 +1,7 @@
+// import fs module to write in file
+const fs = require("fs");
+
+// store the array
 const results = [];
 
 for (let i = 1; i <= 100; i++) {
@@ -12,12 +16,13 @@ for (let i = 1; i <= 100; i++) {
   }
 }
 
+// convert arr to json
 const output = JSON.stringify(results);
 
+// check if output is correct
 console.log(output);
 
-const fs = require("fs");
-
+// write to json file
 fs.writeFile("output.json", output, (error) => {
   if (error) {
     // logging the error
